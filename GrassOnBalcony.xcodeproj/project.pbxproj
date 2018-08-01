@@ -13,6 +13,7 @@
 		BD8A904C21097EBF003C4A1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD8A904A21097EBF003C4A1D /* Main.storyboard */; };
 		BD8A904E21097EC0003C4A1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD8A904D21097EC0003C4A1D /* Assets.xcassets */; };
 		BD8A905121097EC0003C4A1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD8A904F21097EC0003C4A1D /* LaunchScreen.storyboard */; };
+		BD8A905921098169003C4A1D /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8A905821098169003C4A1D /* Grid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		BD8A904D21097EC0003C4A1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD8A905021097EC0003C4A1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD8A905221097EC0003C4A1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD8A905821098169003C4A1D /* Grid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		BD8A904321097EBE003C4A1D /* GrassOnBalcony */ = {
 			isa = PBXGroup;
 			children = (
+				BD8A905821098169003C4A1D /* Grid.swift */,
 				BD8A904421097EBE003C4A1D /* AppDelegate.swift */,
 				BD8A904621097EBF003C4A1D /* art.scnassets */,
 				BD8A904821097EBF003C4A1D /* ViewController.swift */,
@@ -141,6 +144,7 @@
 			files = (
 				BD8A904921097EBF003C4A1D /* ViewController.swift in Sources */,
 				BD8A904521097EBE003C4A1D /* AppDelegate.swift in Sources */,
+				BD8A905921098169003C4A1D /* Grid.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +289,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DNGDZST7G8;
 				INFOPLIST_FILE = GrassOnBalcony/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +307,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DNGDZST7G8;
 				INFOPLIST_FILE = GrassOnBalcony/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
