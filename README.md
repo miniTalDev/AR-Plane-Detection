@@ -1,5 +1,4 @@
 # AR-Plane-Detection
-Horizontal/vertical planes detection.
 
 Horizontal plane detection |  Vertical plane detection
 :-------------------------:|:-------------------------:
